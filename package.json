@@ -7,7 +7,7 @@
     "build": "npm run compile && npm run type",
     "compile": "buidler compile",
     "type": "typechain --target ethers-v5 --outDir dist/typings 'dist/abi/*.json'",
-    "clear": "rm -r dist/",
+    "clear": "rm -r dist/ cache/",
     "test": "buidler test",
     "lint": "solhint './src/**/*.sol'"
   },
